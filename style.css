@@ -1,0 +1,54 @@
+body{
+    background-color: #eceef1;
+    font-family: sans-serif;
+}
+form{
+    width: 300px;
+    margin: auto;
+    background: #fff;
+    padding: 2em;
+    border: 1px solid grey;
+}
+form label{
+    font-size:0.9em;
+}
+
+form input{
+    width: 100%;
+    margin-bottom:15px;
+}
+form h2{
+    text-align: center;
+    font-size:1.35em;
+}
+form .oneacct{
+    text-align:center;
+    font-size:0.9em;
+    margin:0;
+}
+form a, form a:active, form a:active{
+    text-decoration: none;
+    color: #67d0f5;
+    font-size:0.8em;
+}
+form a.learn{
+    display:block;
+    text-align:center;
+}
+form p.rates{
+    font-size:0.6em;
+}
+
+form button{
+    width:100%;
+    padding:4px;
+    background-color: #0077c5;
+    color: #fff;
+    border-radius:4px;
+    /* box-shadow: none; */
+}
+
+form p.terms{
+    font-size:0.8em;
+    text-align: center;
+}
