@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 
 ## Live Webpage
-[Click Here()
+Click Here()
 
 ## Authors
 
