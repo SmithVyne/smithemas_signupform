@@ -1,54 +1,139 @@
-body{
-    background-color: #eceef1;
-    font-family: sans-serif;
-}
-form{
-    width: 300px;
-    margin: auto;
-    background: #fff;
-    padding: 2em;
-    border: 1px solid grey;
-}
-form label{
-    font-size:0.9em;
+body {
+  background-color: #eceef1;
+  font-family: sans-serif;
+  color: #4c4c4c;
 }
 
-form input{
-    width: 100%;
-    margin-bottom:15px;
-}
-form h2{
-    text-align: center;
-    font-size:1.35em;
-}
-form .oneacct{
-    text-align:center;
-    font-size:0.9em;
-    margin:0;
-}
-form a, form a:active, form a:active{
-    text-decoration: none;
-    color: #67d0f5;
-    font-size:0.8em;
-}
-form a.learn{
-    display:block;
-    text-align:center;
-}
-form p.rates{
-    font-size:0.6em;
+nav {
+  margin-top: 10px;
+  display: grid;
+  justify-content: end;
+  text-align: right;
 }
 
-form button{
-    width:100%;
-    padding:4px;
-    background-color: #0077c5;
-    color: #fff;
-    border-radius:4px;
-    /* box-shadow: none; */
+nav p,
+nav a {
+  margin: 0;
+  font-size: 0.8em;
 }
 
-form p.terms{
-    font-size:0.8em;
-    text-align: center;
+form a,
+form a:active,
+form a:hover {
+  text-decoration: none;
+  color: #0077c5;
+  margin-bottom: 25px;
+}
+
+nav .submit-btn {
+  text-align: left;
+  margin-left: 1em;
+}
+
+nav button {
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  color: white;
+  padding: 0.7em;
+  width: 60%;
+  font-size: 0.8em;
+}
+
+nav .signin {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+}
+
+main {
+  margin-top: 15px;
+}
+
+.top-img {
+  width: 100%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 43%;
+}
+
+form {
+  width: 300px;
+  margin: auto;
+  background: #fff;
+  padding: 2em;
+  border: 1px solid #909090;
+}
+
+form label {
+  font-size: 0.9em;
+}
+
+form input {
+  width: 100%;
+  margin-top: 7px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  height: 30px;
+  border: 1px solid #b3b3b3;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+form h2 {
+  text-align: center;
+  font-size: 1.35em;
+  font-weight: normal;
+}
+
+form .oneacct {
+  text-align: center;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+form a.learn {
+  display: block;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+form .phone-input {
+  margin-bottom: 3px;
+}
+
+form p.rates {
+  font-size: 0.6em;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #0077c5;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+form button i {
+  padding-right: 2px;
+}
+
+form p.terms {
+  font-size: 0.8em;
+  text-align: center;
+  font-style: italic;
+  margin-top: 35px;
+}
+
+footer {
+  margin-top: 10px;
+  font-size: 0.8em;
+  text-align: center;
 }
