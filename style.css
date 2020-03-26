@@ -50,27 +50,27 @@ main {
   margin-top: 15px;
 }
 
-.topper{
+.topper {
   display: flex;
-  width:300px;
-  margin:auto;
+  width: 300px;
+  margin: auto;
   flex-direction: column;
 }
 
-.topper img{
-  flex:1;
+.topper img {
+  flex: 1;
 }
 
-.topper div{
+.topper div {
   display: flex;
   flex-direction: row;
   flex: 1;
   align-items: center;
   justify-content: space-between;
-  margin:10px 0 15px 0;
+  margin: 10px 0 15px 0;
 }
 
-.topper div span{
+.topper div span {
   margin-right: 7px;
 }
 
