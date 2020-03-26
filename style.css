@@ -11,17 +11,17 @@ a:hover {
   text-decoration: none;
 }
 
+nav p,
+nav a {
+  margin: 0;
+  font-size: 0.8em;
+}
+
 nav {
   margin-top: 10px;
   display: grid;
   justify-content: end;
   text-align: right;
-}
-
-nav p,
-nav a {
-  margin: 0;
-  font-size: 0.8em;
 }
 
 form a,
