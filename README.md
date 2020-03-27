@@ -4,6 +4,7 @@ This is a clone of the signup form at [Mint.com](https://www.Mint.com)
 
 Additional description about the project and its features.
 
+![screenshot](img/screenshot.png)
 ## Built With
 
 - HTML,
