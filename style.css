@@ -1,0 +1,183 @@
+body {
+  background-color: #eceef1;
+  font-family: sans-serif;
+  color: #4c4c4c;
+}
+
+a,
+a:active,
+a:hover {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+nav p,
+nav a {
+  margin: 0;
+  font-size: 0.8em;
+}
+
+nav {
+  margin-top: 10px;
+  display: grid;
+  justify-content: end;
+  text-align: right;
+}
+
+form a,
+form a:active,
+form a:hover {
+  margin-bottom: 25px;
+}
+
+nav .submit-btn {
+  text-align: left;
+  margin-left: 1em;
+}
+
+button {
+  cursor: pointer;
+}
+
+nav button {
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  color: white;
+  padding: 0.7em;
+  width: 60%;
+  font-size: 0.8em;
+}
+
+nav .signin {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+}
+
+main {
+  margin-top: 15px;
+}
+
+.topper {
+  display: flex;
+  width: 300px;
+  margin: auto;
+  flex-direction: column;
+}
+
+.topper img {
+  flex: 1;
+}
+
+.topper div {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0 15px 0;
+  cursor: pointer;
+}
+
+.topper div span {
+  margin-right: 7px;
+}
+
+.top-img {
+  width: 100%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 43%;
+}
+
+form {
+  width: 300px;
+  margin: auto;
+  background: #fff;
+  padding: 2em;
+  border: 1px solid #909090;
+}
+
+form label {
+  font-size: 0.9em;
+}
+
+form input {
+  width: 100%;
+  margin-top: 7px;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  height: 30px;
+  border: 1px solid #b3b3b3;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+form h2 {
+  text-align: center;
+  font-size: 1.35em;
+  font-weight: normal;
+}
+
+form .oneacct {
+  text-align: center;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+form a.learn {
+  display: block;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+form .phone-input {
+  margin-bottom: 3px;
+}
+
+form p.rates {
+  font-size: 0.6em;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #0077c5;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+form button i {
+  padding-right: 2px;
+}
+
+form p.terms {
+  font-size: 0.8em;
+  text-align: center;
+  font-style: italic;
+  margin-top: 35px;
+}
+
+footer {
+  padding-top: 60px;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+footer a,
+footer a:hover,
+footer a:active {
+  color: #4c4c4c;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
